@@ -33,10 +33,21 @@ python main.py
 ```
 
 ## Output
-- `stitched_image.jpg` - Stitched panorama
-- `road_mask.jpg` - Segmented road mask
-- `colored_roads.jpg` - Highlighted road sections
-- `final.jpg` - Final output with travel directions
+### Stitched Image
+Generated panorama from multiple images.
+![Stitched Image](samples/stitched_image.jpg)
+
+### Road Mask
+Segmented mask highlighting road areas.
+![Road Mask](samples/road_mask.jpg)
+
+### Highlighted Roads
+Overlayed mask on the panorama to visualize detected roads.
+![Colored Roads](samples/colored_roads.jpg)
+
+### Final Output
+Image with estimated travel directions overlaid.
+![Final Output](samples/final.jpg)
 
 ## Dependencies
 - OpenCV
