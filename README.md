@@ -32,6 +32,10 @@ Run the main script to execute the full pipeline:
 python main.py
 ```
 
+## Input
+images from front-view cameras of a car.
+![Input Image](samples/inputmatrix.jpg)
+
 ## Output
 ### Stitched Image
 Generated panorama from multiple images.
